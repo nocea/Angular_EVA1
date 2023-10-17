@@ -1,0 +1,14 @@
+.preguntasYRespuestas{
+    background-color: #333;
+    border-color: lightblue;
+    border: 10px solid lightblue;
+    color: lightblue;
+    list-style: none;
+}
+.lista{
+    list-style: none;
+}
+.pregunta{
+    text-decoration: underline;
+    text-align:center;
+}

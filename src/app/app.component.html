@@ -1,7 +1,15 @@
 <app-cabecera></app-cabecera>
 <div class="container-fluid">
+  <div class="row">
+    <div class="col-4 text-center"><a routerLink="/asignaturas">Asignaturas</a></div>
+    <div class="col-4 text-center"><a routerLink="/inicio">Inicio</a></div>
+    <div class="col-4 text-center"><a routerLink="/preguntas">Preguntas</a></div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+<!--<div class="container-fluid">
     <div class="row">
         <div class="col-6 caja"><app-asignaturas></app-asignaturas></div>
         <div class="col-6 caja"><app-preguntas-yrespuestas></app-preguntas-yrespuestas></div>
     </div>
-</div>
+</div>-->

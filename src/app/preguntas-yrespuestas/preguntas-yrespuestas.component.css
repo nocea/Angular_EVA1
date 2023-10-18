@@ -1,14 +1,13 @@
-.preguntasYRespuestas{
-    background-color: #333;
-    border-color: lightblue;
-    border: 10px solid lightblue;
-    color: lightblue;
-    list-style: none;
-}
 .lista{
     list-style: none;
 }
 .pregunta{
-    text-decoration: underline;
-    text-align:center;
+    color:#0E1040;
+    text-decoration: underline #2266AF;
+    text-align:left;
+    font-weight: bold;
+}
+.respuesta{
+    text-align: justify;
+    color:#0A405B;
 }

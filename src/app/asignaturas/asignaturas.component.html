@@ -1,3 +1,13 @@
-<div class="asignaturas">
-    <h2>Asignaturas</h2>
+<h2>{{titulo}}</h2>
+<div class="container">
+    <div class="row justify-content-center">
+<table>
+    <tr *ngFor="let asignaturas of listaAsignaturas">
+        <td class="estilocelda">{{asignaturas.id_asignatura}}</td>
+        <td>{{asignaturas.nombre}}</td>
+        <td class="estilocelda">{{asignaturas.siglas}}</td>
+        <td>{{asignaturas.profesor}}</td>
+    </tr>
+</table>
+</div>
 </div>

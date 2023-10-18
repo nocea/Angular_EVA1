@@ -1,8 +1,7 @@
-<div class="preguntasYRespuestas">
-    <h2>{{titulo}}</h2>
+<h2>{{titulo}}</h2>
     <ul class="lista">
         <li *ngFor="let preguntas of listaPreguntasRespuestas">
             <p class="pregunta">{{preguntas.id_pregunta}}.{{preguntas.pregunta}}</p>
+            <p class="respuesta">{{preguntas.respuesta}}</p>
         </li>
     </ul>
-</div>
